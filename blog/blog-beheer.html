@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muziekschool H&J - Blog beheer</title>
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <h1>Muziekschool H&J</h1>
+            <p>Blog</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/over-ons.html">Over ons</a></li>
+                <li><a href="../html/tarieven.html">Tarieven</a></li>
+                <li><a href="../html/contact.html">Contact</a></li>
+                 <li><a href="#">Agenda</a></li>
+                <li><a href="blog-overzicht.html" class="active">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="blog-form">
+            <label for="titel">Titel:</label>
+            <input type="text" name="titel" id="titel" required>
+            <label for="auteur">Auteur:</label>
+            <input type="text" name="auteur" id="auteur" required>
+            <label for="datum">Datum:</label>
+            <input type="date" name="datum" id="datepicker" required>
+            <label for="inhoud">Inhoud:</label>
+            <textarea name="inhoud" id="inhoud" required></textarea>
+            <button type="submit">Plaatsen</button>
+        </form>
+        <div id="form-melding">
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2021 Muziekschool H&J</p>
+        <p>(Dit is een oefenopdracht, alle informatie op deze website is fictief.)</p>
+    </footer>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/blog.js"></script>
+</body>
+</html>
